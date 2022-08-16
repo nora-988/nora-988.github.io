@@ -1,0 +1,141 @@
+body {
+  max-width: 650px;
+  margin-left: 150px;
+}
+
+img {
+  max-width: 900px;
+  margin-left: 100px;
+  position: relative;
+}
+
+h1, blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+#hello {
+  color: #f7e49e;
+  text-shadow: 3px 2px 0 black;
+  position: absolute;
+  font-size: 25px;
+  top: 190px;
+  left: 200px;
+}
+
+#name {
+  color: #f7e49e;
+  text-shadow: 3px 3px 0 black;
+  font-size: 50px;
+  position: absolute;
+  max-width: 40px;
+  top: 225px;
+  left: 230px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin: 30px;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  list-style-type: square;
+}
+
+li {
+  margin-top: 5px;
+}
+
+blockquote {
+  background: #171615;
+  color: #f7e49e;
+  padding: 40px 50px;
+  font-size: 35px;
+  margin: 0;
+  width: 150px;
+  position: relative;
+}
+
+blockquote::before {
+  content: open-quote;
+  position: absolute;
+  top: -20px;
+  left: 2px;
+  font-size: 90px;
+}
+
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
+}
+
+.headerHeader {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f7e49e;
+  text-shadow: 2px 2px 0 black;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin: 30px;
+}
+
+.titled {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  padding-left: 30px;
+  margin-top: 0;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.image {
+  margin: 0;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  float: left;
+}
+
+.flexFirst {
+  background: #171615;
+  height: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #f7e49e;
+  background: none;
+  border: none;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+td {
+  vertical-align: top;
+  padding-bottom: 30px;
+}
+
+#longText {
+  font-size: 32px;
+}
